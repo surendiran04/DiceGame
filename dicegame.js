@@ -1,5 +1,5 @@
-var score1 = 25,
-  score2 = 25,
+var score1 = 0,
+  score2 = 0,
   score,
   i = 1;
 
