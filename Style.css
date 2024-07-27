@@ -1,0 +1,86 @@
+
+h1,h2,h3,h4,h5,i,p{
+    color:#ffffff;
+
+}
+h1,h2,h3,h4,h5{
+font-size: 1.5rem;
+}
+.mt-6{
+    margin-top:5rem;
+}
+.mt-8{
+    margin-top: 8rem;
+}
+.btn{
+    background-color:green;
+    border-radius:0px;
+
+}
+.btn-primary{
+    --bs-btn-hover-bg:green;
+}
+.dice1{
+    width:200px;
+    height:200px;
+    border:1px solid #ffffff;
+}
+.btn1{
+    background-color:rgb(178, 101, 176) ;
+    color:rgb(12, 12, 12);
+}
+i{
+    margin-left: 0.5rem;;
+}
+.w{
+    width:300px;
+}
+img{
+    width:200px;
+    height:200px;
+}
+
+/* confetti Animation Styles */
+.confetti {
+    position: absolute;
+    font-size: 1.6rem;
+    animation: confetti-fall linear 5s infinite;
+  }             
+            
+  @keyframes confetti-fall {
+    0% {
+      transform: translateY(-100%) rotate(0);
+    }
+    100% {
+      transform: translateY(100vh) rotate(180deg);
+    }
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");            
+            
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    overflow: hidden;
+  }            
+            
+  body {
+    background-color:#050217;
+    font-family: "Open Sans", sans-serif;
+    /* font-size: 1.6rem; */
+  }
+           
+  #confetti-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Prevent interaction with confetti */
+    overflow: hidden;
+  }
+
+  .container {
+    position: relative;
+  }            
